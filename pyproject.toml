@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "EQPreset"
+version = "0.0.1"
+authors = [
+  { name="Malik Enes Safak", email="e.maliksafak@gmail.com" },
+]
+description = "Python library to generate preset files for various EQs"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/NullMember/EQPreset"
+"Bug Tracker" = "https://github.com/NullMember/EQPreset/issues"
